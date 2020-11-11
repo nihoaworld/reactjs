@@ -7,9 +7,11 @@
   pointer-events: none;
 }
 
+/* 动画效果 */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    /* 动画名字-循环次数-持续时长-渐变形式 */
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
@@ -28,6 +30,7 @@
   color: #61dafb;
 }
 
+/* 动画 */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
